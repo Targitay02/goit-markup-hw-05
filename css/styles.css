@@ -91,6 +91,21 @@ display: flex;
     color: var(--active-color);
 }
 
+.nav-list .nav-link.current::after {
+    content: '';
+
+    position: absolute;
+
+    width: 100%;
+    height: 4px;
+
+    right: 0;
+    bottom: 0;
+    
+    background: #2196F3;
+    border-radius: 2px;
+}
+
 .nav-list {
 display: flex;
 margin-left: 93px;
@@ -101,6 +116,7 @@ margin-left: 93px;
 }
 
 .nav-link {
+    position: relative;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
