@@ -551,7 +551,8 @@ fill: currentColor;
     color: var(--primary-text-color);
 }
 
-.project-item:hover .project-thumb::before {
+.project-link:hover .project-thumb::before,
+.project-link:focus .project-thumb::before {
     opacity: 1;
 }
 
