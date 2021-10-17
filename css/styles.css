@@ -284,6 +284,9 @@ fill: currentColor;
     cursor: pointer;
 }
 
+.close-button:hover {
+    cursor: pointer;
+}
 
 /* Преимущества */
 .benefits {
